@@ -9,6 +9,7 @@ async function fetchDogApi() {
         .then((data) => {
             divImages.innerHTML += `<img width=200 height=200 src=${data.message} alt="random-dog"/>`
         });
+    console.clear()
 }
 
 button.addEventListener("click", ()=> {
