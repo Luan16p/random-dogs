@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px 0px;
+    gap: 15px;
+    overflow-x: hidden;
+    background: #855;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    max-width: 450px;
+    border-radius: 400px;
+    border: 1px solid #fff;
+    background: #855;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+img {
+    border: 0;
+}
