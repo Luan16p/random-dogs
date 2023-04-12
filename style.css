@@ -34,6 +34,10 @@ button {
     align-items: center;
 }
 
+p {
+    color: #fff;   
+}
+
 .images {
     display: flex;
     flex-flow: row wrap;
