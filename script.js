@@ -12,6 +12,16 @@ async function fetchDogApi() {
     console.clear()
 }
 
+
+function handleClick(e) {
+    if(e.key == "Enter") {
+        fetchDogApi();
+    }
+    return;
+}
+
 button.addEventListener("click", ()=> {
     fetchDogApi();
 })
+
+buttonn.addEventLiistener("keyDown", handleClick);
